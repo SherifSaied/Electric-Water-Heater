@@ -2,7 +2,7 @@
 It's an Electric Water Heater that made using AVR ATmega32 chip.
 It consists of alot of modules such as ADC, EEPROM, SSD (Seven Segment Display), Basic Push Button, Led, Interrupts and the most important is the TIMER. I actually used two timers to calculate time between tasks. The heater uses the EEPROM to save the latest desired temperature the user modified.
 
-The Controller follows the following procedure:
+<P>The Controller follows the following procedure:<P>
 
 It has the ON/OFF Button that is attached to an external interrupt, that switches between ON and OFF states.
 in the OFF state everything is OFF and the desired temperature is saved in the EEPROM .
