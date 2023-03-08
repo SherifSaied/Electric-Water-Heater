@@ -11,4 +11,3 @@ the array consists of the last 10 readings that are used to make the decision of
 the UP and DOWN buttons are to switch from the ON state to the SETTINGS state, where the user can modify desired temperature.
 if the user didn't click the UP or DOWN buttons for five seconds, it turns back to the ON state, and the chosen temperature is saved in the EEPROM once again.
 The indication led is to know which element (Heater or Cooler) is working and in what state is the controller in.
-;k
